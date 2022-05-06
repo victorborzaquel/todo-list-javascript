@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#content {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 500px;
+}
+
+#add-todo-content {
+    padding-bottom: 20px;
+}
+
+#add-todo {
+    height: 30px;
+    padding: 0 10px;
+}
+
+#btn-add-todo {
+    height: 30px;
+    padding: 0 10px;
+    background-color: rgb(99, 219, 119);
+    border: none;
+}
+
+#btn-add-todo:hover {
+    background-color: rgb(62, 194, 84);
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.task-content {
+    display: flex;
+    align-items: center;
+}
+
+.task-title {
+    margin: 10px;
+}
+
+.btn-task-delete {
+    background-color: rgb(172, 26, 26);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 3px 5px;
+}
+
+.btn-task-delete:hover {
+    background-color: rgb(235, 107, 107);
+}
